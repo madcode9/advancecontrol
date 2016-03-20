@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advance Control</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-theme.min.css">
+        <link rel="stylesheet" href="custom.css">
+        <script src="jquery.js"></script>
+        <script src="bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class="container-fluid" style="margin-top:40px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" style="border-bottom:1px solid maroon;margin-bottom:10px">
+                        <h2 style="font-size:25px;color:white;font-weight:bold;text-align:center;text-transform:uppercase;">For Technician</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="lbl">Date</p>
+                    <input type="date" class="ftxt">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-6">
+                    <p class="lbl">Time in (1)</p>
+                   <input type="text" class="ftxt">
+                </div>
+                <div class="col-xs-6">
+                    <p class="lbl">Time out (1)</p>
+                    <input type="text" class="ftxt">
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <p class="lbl">Time in (2)</p>
+                    <input type="text" class="ftxt">
+                </div>
+                <div class="col-xs-6">
+                    <p class="lbl">Time out (2)</p>
+                    <input type="text" class="ftxt">
+                </div>
+                
+            </div><div class="row">
+                <div class="col-xs-6">
+                    <p class="lbl">Time in (3)</p>
+                    <input type="text" class="ftxt">
+                </div>
+                <div class="col-xs-6">
+                    <p class="lbl">Time out (3)</p>
+                    <input type="text" class="ftxt">
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <p class="lbl">Time in (4)</p>
+                    <input type="text" class="ftxt">
+                </div>
+                <div class="col-xs-6">
+                    <p class="lbl">Time out (4)</p>
+                    <input type="text" class="ftxt">
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="lbl">No of Technicians</p>
+                    <input type="text" class="ftxt">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="lbl">Job not completed</p>
+                    <input type="checkbox"> <label> Yes </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4"><div class="col-sm-6"><input type="submit" id="sbtn" Value="+ Hours" class="fbtn"></div></div>
+                <div class="col-xs-4">
+                    <div class="col-sm-6"><input type="button" id="sbtn" Value="Previous" class="fbtn" onclick="myfucntion()"></div></div>
+                <div class="col-xs-4"><div class="col-sm-6"><input type="button" id="sbtn" Value="Next" class="fbtn" onclick="myfucntion2()"></div></div>
+            </div>
+        </section>
+    </body>
+    <script type="text/javascript">
+        function myfucntion()
+        {
+            
+            window.location = "products.html";
+        }
+        function myfucntion2()
+        {
+            
+            window.location = "customers.html";
+        }
+    </script>
+</html>
